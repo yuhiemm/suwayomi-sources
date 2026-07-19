@@ -1,5 +1,7 @@
 {
-  "name": "yuhiemm personal sources",
-  "website": "https://github.com/yuhiemm/suwayomi-sources",
-  "meta": "personal private extension repo"
+  "meta": {
+    "name": "yuhiemm sources",
+    "shortName": "yuhiemm",
+    "website": "https://github.com/yuhiemm/suwayomi-sources"
+  }
 }
