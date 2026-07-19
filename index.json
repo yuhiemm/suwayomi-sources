@@ -17,23 +17,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: GoDa",
-    "pkg": "eu.kanade.tachiyomi.extension.zh.baozimhorg",
-    "apk": "tachiyomi-zh.baozimhorg-v1.4.36.apk",
-    "lang": "zh",
-    "code": 36,
-    "version": "1.4.36",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "GoDa漫画",
-        "lang": "zh",
-        "id": "774030471139699415",
-        "baseUrl": "https://baozimh.org"
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Dm5",
     "pkg": "eu.kanade.tachiyomi.extension.zh.dm5",
     "apk": "tachiyomi-zh.dm5-v1.4.10.apk",
@@ -47,6 +30,23 @@
         "lang": "zh",
         "id": "293789630396851172",
         "baseUrl": "https://www.dm5.com"
+      }
+    ]
+  },
+  {
+    "name": "Tachiyomi: GoDa",
+    "pkg": "eu.kanade.tachiyomi.extension.zh.baozimhorg",
+    "apk": "tachiyomi-zh.baozimhorg-v1.4.36.apk",
+    "lang": "zh",
+    "code": 36,
+    "version": "1.4.36",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "GoDa漫画",
+        "lang": "zh",
+        "id": "774030471139699415",
+        "baseUrl": "https://baozimh.org"
       }
     ]
   },
@@ -98,23 +98,6 @@
         "lang": "zh",
         "id": "792932060924485302",
         "baseUrl": "https://komiic.com"
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Mangabz",
-    "pkg": "eu.kanade.tachiyomi.extension.zh.mangabz",
-    "apk": "tachiyomi-zh.mangabz-v1.4.14.apk",
-    "lang": "zh",
-    "code": 14,
-    "version": "1.4.14",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Mangabz",
-        "lang": "zh",
-        "id": "5234610795363016972",
-        "baseUrl": "https://mangabz.com"
       }
     ]
   },
@@ -200,6 +183,25 @@
         "lang": "zh",
         "id": "6551136894818591762",
         "baseUrl": "https://www.wn07.cfd"
+      }
+    ]
+  },
+  {
+    "name": "Tachiyomi: mangabz",
+    "pkg": "eu.kanade.tachiyomi.extension.zh.mangabz",
+    "apk": "tachiyomi-zh.mangabz-v1.4.1.apk",
+    "lang": "zh",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "mangabz",
+        "lang": "zh",
+        "id": "904062609871253253",
+        "baseUrl": "https://www.mangabz.com",
+        "versionId": 1,
+        "hasCloudflare": 1
       }
     ]
   }
