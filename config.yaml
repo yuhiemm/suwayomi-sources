@@ -1,0 +1,21 @@
+# 爬取代理：默认 yuhiemm 代理池 speed（禁止直连源站）
+proxy_mode: pool          # pool | warp
+proxy_platform: speed     # all | speed | regis （home 禁用）
+proxy_scheme: socks5h
+proxy_route_user: ""
+proxy_url: ""             # 非空则覆盖上面
+
+# 兜底 WARP（proxy_mode: warp 时使用）
+warp_proxy: socks5h://10.0.0.39:1080
+force_proxy: true
+
+flaresolverr_url: http://127.0.0.1:8191
+suwayomi_url: http://127.0.0.1:4567
+suwayomi_user: ""
+suwayomi_pass: ""
+suwayomi_extensions_dir: /home/ubuntu/suwayomi/data/extensions
+github_repo: yuhiemm/suwayomi-sources
+github_branch: main
+output_dir: /home/ubuntu/suwayomi-ext-agent/output
+lang: zh
+timeout: 30

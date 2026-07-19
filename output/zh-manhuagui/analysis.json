@@ -1,0 +1,487 @@
+{
+  "seed_url": "https://www.manhuagui.com",
+  "base_url": "https://www.manhuagui.com",
+  "site_name": "manhuagui",
+  "lang": "zh",
+  "engine": "html",
+  "popular_url": "https://www.manhuagui.com/update",
+  "latest_url": "https://www.manhuagui.com/update",
+  "search_url": "https://www.manhuagui.com/search",
+  "search_method": "get",
+  "manga_list_selector": "",
+  "manga_item_selector": ".ell",
+  "manga_title_selector": "a",
+  "manga_url_selector": "a",
+  "manga_thumbnail_selector": "",
+  "next_page_selector": "",
+  "manga_list_samples": [
+    {
+      "url": "https://www.manhuagui.com/comic/56054/",
+      "text": "HIGH不起来的约会",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/31511/",
+      "text": "一根筋的风纪委员与裙长不当的JK",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/17585/",
+      "text": "我家的女仆小姐",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/38725/",
+      "text": "我的可爱对黑岩目高不管用",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/55392/",
+      "text": "兔女郎的夜晚疗愈",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/30059/",
+      "text": "蛮横无理的大小姐正在感到苦闷",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56111/",
+      "text": "鞠茂兄弟的大小事",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/48267/",
+      "text": "即使是复制人，也会恋爱。",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/38951/",
+      "text": "姬骑士是蛮族的新娘",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/24591/",
+      "text": "女朋友、借我一下",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/37150/",
+      "text": "被男闺蜜告白了怎么办？",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/27857/",
+      "text": "神咒的涅库塔露",
+      "score": 1.0
+    }
+  ],
+  "manga_details_url_pattern": "https://www.manhuagui.com/comic/{id}",
+  "details_title_selector": "h1",
+  "details_author_selector": "",
+  "details_desc_selector": "",
+  "details_thumbnail_selector": "",
+  "details_genre_selector": ".genre a",
+  "details_status_selector": ".status",
+  "chapter_list_selector": "",
+  "chapter_item_selector": "div.chapter-list a",
+  "chapter_name_selector": "",
+  "chapter_url_selector": "",
+  "chapter_samples": [
+    {
+      "url": "https://www.manhuagui.com/comic/56054/895728.html",
+      "text": "第29话 21p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/895332.html",
+      "text": "第28话 21p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/894798.html",
+      "text": "第27话 26p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/893615.html",
+      "text": "第26话 24p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/893062.html",
+      "text": "第25话 21p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/892284.html",
+      "text": "第24话 20p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/887169.html",
+      "text": "第23话 25p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/885916.html",
+      "text": "第22话 22p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/883002.html",
+      "text": "第21话 23p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/882532.html",
+      "text": "第20话 28p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/879674.html",
+      "text": "第19话 25p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/878935.html",
+      "text": "第18话 27p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/878250.html",
+      "text": "第17话 23p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/873757.html",
+      "text": "第16话 19p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/853758.html",
+      "text": "第15话 21p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/853028.html",
+      "text": "第14话 24p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/852685.html",
+      "text": "第13话 29p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/851042.html",
+      "text": "第12话 23p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/848573.html",
+      "text": "第11话 23p",
+      "score": 1.0
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/846723.html",
+      "text": "第10话 24p",
+      "score": 1.0
+    }
+  ],
+  "page_image_selector": "",
+  "page_image_attr": "src",
+  "page_api_url": "",
+  "page_samples": [],
+  "api_endpoints": [
+    "https://www.manhuagui.com/comic/32602/",
+    "https://www.manhuagui.com/comic/43265/",
+    "https://www.manhuagui.com/comic/47412/",
+    "https://www.manhuagui.com/comic/37861/",
+    "https://www.manhuagui.com/comic/46561/",
+    "https://www.manhuagui.com/comic/49281/",
+    "https://www.manhuagui.com/comic/48386/",
+    "https://www.manhuagui.com/comic/48948/",
+    "https://www.manhuagui.com/comic/4994/",
+    "https://www.manhuagui.com/comic/48306/",
+    "https://www.manhuagui.com/comic/47997/",
+    "https://www.manhuagui.com/comic/44992/",
+    "https://www.manhuagui.com/comic/48227/",
+    "https://www.manhuagui.com/comic/49392/",
+    "https://www.manhuagui.com/comic/48784/",
+    "https://www.manhuagui.com/comic/49391/",
+    "https://www.manhuagui.com/comic/38070/",
+    "https://www.manhuagui.com/comic/35334/",
+    "https://www.manhuagui.com/comic/46105/",
+    "https://www.manhuagui.com/comic/47953/",
+    "https://www.manhuagui.com/comic/39092/",
+    "https://www.manhuagui.com/comic/49390/",
+    "https://www.manhuagui.com/comic/30128/",
+    "https://www.manhuagui.com/comic/48302/",
+    "https://www.manhuagui.com/comic/49197/",
+    "https://www.manhuagui.com/comic/30764/",
+    "https://www.manhuagui.com/comic/49387/",
+    "https://www.manhuagui.com/comic/29365/",
+    "https://www.manhuagui.com/comic/39443/",
+    "https://www.manhuagui.com/comic/43415/"
+  ],
+  "headers_needed": {},
+  "needs_flaresolverr": false,
+  "notes": [],
+  "confidence": 0.8,
+  "raw_probes": [
+    {
+      "url": "https://www.manhuagui.com/",
+      "status_code": 200,
+      "content_type": "text/html",
+      "title": "在线看漫画_飒漫乐画_妃夕妍雪 - 看漫画",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>在线看漫画_飒漫乐画_妃夕妍雪 - 看漫画</title><meta name=\"keywords\" content=\"漫画,看漫画,在线漫画,SEE漫画,飒漫乐画,妃夕妍雪,晨曦公主\" /><meta name=\"description\" content=\"看漫画网站拥有海量的国产漫画、日韩漫画、欧美漫画等丰富漫画资源，免费为漫画迷提供及时的更新、清新的界面和舒适的体验,努力打造属于漫画迷的漫画乐园。看漫画热门漫画,飒漫乐画,妃夕妍雪,晨曦公主247即将更新\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/index_80855F5540B25E4A06D24B87979B52A12B2CB0F5.css\" /></head><body><div class=\"topper\"><div class"
+    },
+    {
+      "url": "https://www.manhuagui.com/hots",
+      "status_code": 404,
+      "content_type": "text/html",
+      "title": "页面不存在",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>页面不存在</title><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/search_014BE2266F8846DC95E4206ED87EB5230C0363C6.css\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/404_B5930CB270823046D13C8655C157AD8C2E25B4D1.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</script>"
+    },
+    {
+      "url": "https://www.manhuagui.com/hot",
+      "status_code": 404,
+      "content_type": "text/html",
+      "title": "页面不存在",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>页面不存在</title><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/search_014BE2266F8846DC95E4206ED87EB5230C0363C6.css\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/404_B5930CB270823046D13C8655C157AD8C2E25B4D1.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</script>"
+    },
+    {
+      "url": "https://www.manhuagui.com/rank",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "漫画排行榜_日排行 - 看漫画",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html><head><title>漫画排行榜_日排行 - 看漫画</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><meta name=\"keywords\" content=\"漫画排行榜,日排行,漫画人气,热门漫画,看漫画,雨泽漫画\" /><meta name=\"description\" content=\"漫画排行榜，日排行，看漫画为漫画迷提供最新最热门的漫画排行，最值得观看的漫画，最权威的漫画流行榜\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/rank_EEEE364278ECE9AB5E0727888AA9D2E53CE81A41.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</scr"
+    },
+    {
+      "url": "https://www.manhuagui.com/ranking",
+      "status_code": 404,
+      "content_type": "text/html",
+      "title": "页面不存在",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>页面不存在</title><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/search_014BE2266F8846DC95E4206ED87EB5230C0363C6.css\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/404_B5930CB270823046D13C8655C157AD8C2E25B4D1.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</script>"
+    },
+    {
+      "url": "https://www.manhuagui.com/popular",
+      "status_code": 404,
+      "content_type": "text/html",
+      "title": "页面不存在",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>页面不存在</title><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/search_014BE2266F8846DC95E4206ED87EB5230C0363C6.css\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/404_B5930CB270823046D13C8655C157AD8C2E25B4D1.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</script>"
+    },
+    {
+      "url": "https://www.manhuagui.com/top",
+      "status_code": 404,
+      "content_type": "text/html",
+      "title": "页面不存在",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>页面不存在</title><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/search_014BE2266F8846DC95E4206ED87EB5230C0363C6.css\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/404_B5930CB270823046D13C8655C157AD8C2E25B4D1.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</script>"
+    },
+    {
+      "url": "https://www.manhuagui.com/comics",
+      "status_code": 404,
+      "content_type": "text/html",
+      "title": "页面不存在",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>页面不存在</title><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/search_014BE2266F8846DC95E4206ED87EB5230C0363C6.css\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/404_B5930CB270823046D13C8655C157AD8C2E25B4D1.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</script>"
+    },
+    {
+      "url": "https://www.manhuagui.com/manga",
+      "status_code": 404,
+      "content_type": "text/html",
+      "title": "页面不存在",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>页面不存在</title><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/search_014BE2266F8846DC95E4206ED87EB5230C0363C6.css\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/404_B5930CB270823046D13C8655C157AD8C2E25B4D1.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</script>"
+    },
+    {
+      "url": "https://www.manhuagui.com/category",
+      "status_code": 404,
+      "content_type": "text/html",
+      "title": "页面不存在",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>页面不存在</title><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/search_014BE2266F8846DC95E4206ED87EB5230C0363C6.css\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/404_B5930CB270823046D13C8655C157AD8C2E25B4D1.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</script>"
+    },
+    {
+      "url": "https://www.manhuagui.com/latest",
+      "status_code": 404,
+      "content_type": "text/html",
+      "title": "页面不存在",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>页面不存在</title><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/search_014BE2266F8846DC95E4206ED87EB5230C0363C6.css\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/404_B5930CB270823046D13C8655C157AD8C2E25B4D1.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</script>"
+    },
+    {
+      "url": "https://www.manhuagui.com/update",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "最新更新漫画_7天内更新的漫画 - 看漫画",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html><head><title>最新更新漫画_7天内更新的漫画 - 看漫画</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><meta name=\"keywords\" content=\"最新更新漫画,7天内更新的漫画,看漫画,雨泽漫画\" /><meta name=\"description\" content=\"最新更新漫画,7天内更新的漫画,看漫画始终努力为漫画迷提供及时的漫画更新、海量的漫画资源和舒适的观看体验,努力打造属于漫画迷的漫画乐园。\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/latest_851D417BA7368712BC5349B861F18E4FE52FFC9D.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCa"
+    },
+    {
+      "url": "https://www.manhuagui.com/updates",
+      "status_code": 404,
+      "content_type": "text/html",
+      "title": "页面不存在",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>页面不存在</title><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/search_014BE2266F8846DC95E4206ED87EB5230C0363C6.css\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/404_B5930CB270823046D13C8655C157AD8C2E25B4D1.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</script>"
+    },
+    {
+      "url": "https://www.manhuagui.com/new",
+      "status_code": 404,
+      "content_type": "text/html",
+      "title": "页面不存在",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>页面不存在</title><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/search_014BE2266F8846DC95E4206ED87EB5230C0363C6.css\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/404_B5930CB270823046D13C8655C157AD8C2E25B4D1.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</script>"
+    },
+    {
+      "url": "https://www.manhuagui.com/recent",
+      "status_code": 404,
+      "content_type": "text/html",
+      "title": "页面不存在",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>页面不存在</title><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/search_014BE2266F8846DC95E4206ED87EB5230C0363C6.css\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/404_B5930CB270823046D13C8655C157AD8C2E25B4D1.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</script>"
+    },
+    {
+      "url": "https://www.manhuagui.com/search",
+      "status_code": 404,
+      "content_type": "text/html",
+      "title": "页面不存在",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>页面不存在</title><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/search_014BE2266F8846DC95E4206ED87EB5230C0363C6.css\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/404_B5930CB270823046D13C8655C157AD8C2E25B4D1.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</script>"
+    },
+    {
+      "url": "https://www.manhuagui.com/search/",
+      "status_code": 404,
+      "content_type": "text/html",
+      "title": "页面不存在",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>页面不存在</title><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/search_014BE2266F8846DC95E4206ED87EB5230C0363C6.css\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/404_B5930CB270823046D13C8655C157AD8C2E25B4D1.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</script>"
+    },
+    {
+      "url": "https://www.manhuagui.com/sssearch",
+      "status_code": 404,
+      "content_type": "text/html",
+      "title": "页面不存在",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>页面不存在</title><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/search_014BE2266F8846DC95E4206ED87EB5230C0363C6.css\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/404_B5930CB270823046D13C8655C157AD8C2E25B4D1.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</script>"
+    },
+    {
+      "url": "https://www.manhuagui.com/comics/search",
+      "status_code": 404,
+      "content_type": "text/html",
+      "title": "页面不存在",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>页面不存在</title><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/search_014BE2266F8846DC95E4206ED87EB5230C0363C6.css\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/404_B5930CB270823046D13C8655C157AD8C2E25B4D1.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</script>"
+    },
+    {
+      "url": "https://www.manhuagui.com/manga/search",
+      "status_code": 404,
+      "content_type": "text/html",
+      "title": "页面不存在",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>页面不存在</title><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/search_014BE2266F8846DC95E4206ED87EB5230C0363C6.css\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/404_B5930CB270823046D13C8655C157AD8C2E25B4D1.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</script>"
+    },
+    {
+      "url": "https://www.manhuagui.com/api/search",
+      "status_code": 404,
+      "content_type": "text/html",
+      "title": "页面不存在",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>页面不存在</title><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/search_014BE2266F8846DC95E4206ED87EB5230C0363C6.css\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/404_B5930CB270823046D13C8655C157AD8C2E25B4D1.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand(\"BackgroundImageCache\", false, true);</script>"
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "HIGH不起来的约会漫画_盛りあがらないデート漫画_すずゆき - 看漫画",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>HIGH不起来的约会漫画_盛りあがらないデート漫画_すずゆき - 看漫画</title><meta name=\"keywords\" content=\"HIGH不起来的约会,盛りあがらないデート,すずゆき,漫画,在线漫画,看漫画,雨泽漫画\" /><meta name=\"description\" content=\"HIGH不起来的约会漫画,HIGH不起来的约会(别名：盛りあがらないデート)。在交友软体遇到的微妙邂逅…… \" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/book_DDBB0710AD79BCC302DCE63797EDF9CE2807E7E0.css\" /><!--[if IE 6]><script type=\"text/javascript\">document.execCommand("
+    },
+    {
+      "url": "https://www.manhuagui.com/comic/56054/895728.html",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "HIGH不起来的约会第29话_HIGH不起来的约会漫画 - 看漫画",
+      "is_json": false,
+      "is_html": true,
+      "used_flaresolverr": false,
+      "error": "",
+      "sample": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><title>HIGH不起来的约会第29话_HIGH不起来的约会漫画 - 看漫画</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><meta name=\"keywords\" content=\"第29话,HIGH不起来的约会,盛りあがらないデート,すずゆき,漫画,看漫画\" /><meta name=\"Description\" content=\"HIGH不起来的约会第29话,在线看HIGH不起来的约会(别名：盛りあがらないデート)漫画就在看漫画\" /><link rel=\"stylesheet\" type=\"text/css\" href=\"//cf.mhgui.com/css/detail_DB965CF1E59F1F1AE74E9737486C8C81FDD97202.css\" /><script type=\"text/javascript\" src=\"//c"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+name: build-generated-extension
+
+on:
+  workflow_dispatch:
+    inputs:
+      extension_dir:
+        description: "output 下的扩展目录名，如 zh-manhuagui"
+        required: true
+        default: "zh-manhuagui"
+  push:
+    paths:
+      - "output/**"
+      - ".github/workflows/build-generated-extension.yml"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Checkout keiyoushi extensions-source
+        uses: actions/checkout@v4
+        with:
+          repository: keiyoushi/extensions-source
+          path: keiyoushi
+          fetch-depth: 1
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Inject generated source
+        run: |
+          set -euo pipefail
+          EXT="${{ github.event.inputs.extension_dir || 'zh-manhuagui' }}"
+          SRC="output/${EXT}"
+          if [ ! -d "$SRC" ]; then
+            # 取 output 下第一个 zh-* 目录
+            SRC=$(find output -maxdepth 1 -type d -name 'zh-*' | head -1 || true)
+          fi
+          if [ -z "${SRC}" ] || [ ! -d "${SRC}" ]; then
+            echo "No generated extension found under output/"
+            exit 1
+          fi
+          echo "Using source: $SRC"
+          # 解析 lang/pkg
+          name=$(basename "$SRC")   # zh-manhuagui
+          lang=${name%%-*}
+          pkg=${name#*-}
+          dest="keiyoushi/src/${lang}/${pkg}"
+          rm -rf "$dest"
+          mkdir -p "$dest"
+          # 生成器输出结构：src/eu/...  + AndroidManifest + build.gradle.kts
+          # keiyoushi 期望：src/eu/... 在扩展目录下
+          cp -a "$SRC/." "$dest/"
+          # 若没有 keiyoushi 风格的 build 文件，尽量保留 monorepo 约定
+          ls -la "$dest"
+          echo "EXT_PATH=$dest" >> "$GITHUB_ENV"
+          echo "PKG=$pkg" >> "$GITHUB_ENV"
+          echo "LANG=$lang" >> "$GITHUB_ENV"
+
+      - name: Build with keiyoushi gradle
+        working-directory: keiyoushi
+        run: |
+          chmod +x gradlew
+          # 项目路径: :src:zh:manhuagui
+          ./gradlew ":src:${LANG}:${PKG}:assembleDebug" --no-daemon --stacktrace
+
+      - name: Collect artifacts
+        run: |
+          mkdir -p dist
+          find keiyoushi -type f \( -name 'tachiyomi-*.jar' -o -name '*.apk' \) -print -exec cp {} dist/ \;
+          ls -la dist || true
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: extension-${{ env.PKG || 'unknown' }}
+          path: dist/
+          if-no-files-found: warn
